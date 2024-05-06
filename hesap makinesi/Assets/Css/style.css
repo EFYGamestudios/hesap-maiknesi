@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none ;
+    list-style: none;
+    box-sizing: border-box;
+    color: white;
+}
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+}
+#yazi{
+    width: 480px;
+    height: 90px;
+    font-size: 45px;
+    border-radius: 5px;
+    border: 1px solid black;
+    float: left;
+    color: black;
+    padding-left: 20px;
+}
+button{
+    display: inline-block;
+}
+
+.ana-div{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.number{
+    height: 84px;
+    width: 154px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: #008b00;
+    font-size: 30px;
+    cursor: pointer;
+}
+.islem,#sil{
+    float: right;
+    cursor: pointer;
+    height: 84px;
+    width: 116px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 30px;
+    background-color: #008b00;
+}
+#sil{
+    margin-top: 2px;
+}

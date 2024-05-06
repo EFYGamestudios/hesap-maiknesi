@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Assets/Css/style.css">
+    <link rel="icon" href="Uplads/pngegg.png">
+</head>
+<body>
+    <div class="ana-div">
+        <div>
+            <input type="text" id="yazi" value="0">
+            <button id="sil" onclick="Sil()">C</button>
+        </div>
+        <div>
+            <button class="number" onclick="Sayi(1)" style="margin-left: 0;">1</button>
+            <button class="number" onclick="Sayi(2)">2</button>
+            <button class="number" onclick="Sayi(3)">3</button>
+            <button class="islem" onclick="Bol('/')">/</button>
+        </div>
+        <div>
+            <button class="number" onclick="Sayi(4)" style="margin-left: 0;">4</button>
+            <button class="number" onclick="Sayi(5)">5</button>
+            <button class="number" onclick="Sayi(6)" >6</button>
+            <button class="islem" onclick="Carp('*')">*</button>
+        </div>
+        <div>
+            <button class="number" onclick="Sayi(7)" style="margin-left: 0;">7</button>
+            <button class="number" onclick="Sayi(8)">8</button>
+            <button class="number" onclick="Sayi(9)">9</button>
+            <button class="islem" onclick="Fark('-')">-</button>
+        </div>
+        <div>
+            <button class="number" onclick="Nokta('.')" style="margin-left: 0;">.</button>
+            <button class="number" onclick="Sayi(0)">0</button>
+            <button class="number" onclick="Sonuc('=')">=</button>
+            <button class="islem" onclick="Topla('+')">+</button>
+        </div>
+    </div>
+    <script src="Assets/js/script.js"></script>
+</body>
+</html>
